@@ -5,6 +5,7 @@ This application is an exercise to complete the application to Codepath's iOS fo
 ## What does the app can do?
 
 * [x] Required: The user can calculate the tip, using diferent percentages 
+* [x] Optional: The user can opt to get a random tip, either by clicking the 'Surprise me' button or by shaking the device
 
 Walkthrough of all the app stories:
 
