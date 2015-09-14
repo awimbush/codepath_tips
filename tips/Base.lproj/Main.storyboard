@@ -20,7 +20,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NGL-22-SSN">
-                                <rect key="frame" x="178" y="282" width="109" height="36"/>
+                                <rect key="frame" x="127" y="282" width="160" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -79,6 +79,16 @@
                                     <action selector="onEditingChanged:" destination="vXZ-lx-hvc" eventType="editingChanged" id="R6O-bG-3Ri"/>
                                 </connections>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NFx-Rd-kOP">
+                                <rect key="frame" x="117" y="405" width="87" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Surprise me ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1WR-n3-naV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -88,6 +98,7 @@
                     </view>
                     <connections>
                         <outlet property="billField" destination="gTx-ON-YYn" id="c4b-gi-ZWK"/>
+                        <outlet property="surpriseButton" destination="NFx-Rd-kOP" id="UKk-vD-uio"/>
                         <outlet property="tipControl" destination="RSa-Lx-Eic" id="APk-no-P65"/>
                         <outlet property="tipLabel" destination="RMK-9g-QW1" id="i3l-sA-lmJ"/>
                         <outlet property="totalLabel" destination="NGL-22-SSN" id="ldE-qo-WEw"/>
