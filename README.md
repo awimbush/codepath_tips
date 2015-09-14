@@ -9,6 +9,6 @@ This application is an exercise to complete the application to Codepath's iOS fo
 
 Walkthrough of all the app stories:
 
-![Video Walkthrough](tips.gif)
+![Video Walkthrough](tips_2.gif)
 
 The GIF was created with [LiceCap](http://www.cockos.com/licecap/).

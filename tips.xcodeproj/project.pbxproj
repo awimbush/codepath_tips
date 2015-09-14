@@ -13,6 +13,7 @@
 		606468561BA6422A006A3FE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606468551BA6422A006A3FE5 /* Images.xcassets */; };
 		606468591BA6422A006A3FE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 606468571BA6422A006A3FE5 /* LaunchScreen.xib */; };
 		606468651BA6422A006A3FE5 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606468641BA6422A006A3FE5 /* tipsTests.swift */; };
+		608822E61BA6804A00EE2E40 /* tips_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 608822E51BA6804A00EE2E40 /* tips_2.gif */; };
 		608A1E431BA66C1400CF3C87 /* tips.gif in Resources */ = {isa = PBXBuildFile; fileRef = 608A1E411BA66C1400CF3C87 /* tips.gif */; };
 		608A1E441BA66C1400CF3C87 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 608A1E421BA66C1400CF3C87 /* README.md */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		6064685E1BA6422A006A3FE5 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		606468631BA6422A006A3FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		606468641BA6422A006A3FE5 /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
+		608822E51BA6804A00EE2E40 /* tips_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = tips_2.gif; path = ../../Desktop/tips_2.gif; sourceTree = "<group>"; };
 		608A1E411BA66C1400CF3C87 /* tips.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tips.gif; sourceTree = "<group>"; };
 		608A1E421BA66C1400CF3C87 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 			children = (
 				608A1E411BA66C1400CF3C87 /* tips.gif */,
 				608A1E421BA66C1400CF3C87 /* README.md */,
+				608822E51BA6804A00EE2E40 /* tips_2.gif */,
 				6064684B1BA6422A006A3FE5 /* tips */,
 				606468611BA6422A006A3FE5 /* tipsTests */,
 				6064684A1BA6422A006A3FE5 /* Products */,
@@ -201,6 +204,7 @@
 				606468541BA6422A006A3FE5 /* Main.storyboard in Resources */,
 				608A1E431BA66C1400CF3C87 /* tips.gif in Resources */,
 				606468591BA6422A006A3FE5 /* LaunchScreen.xib in Resources */,
+				608822E61BA6804A00EE2E40 /* tips_2.gif in Resources */,
 				606468561BA6422A006A3FE5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
