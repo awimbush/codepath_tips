@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>03887C01-350F-4911-AC70-2D81BB1A1A94</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>tips</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>811F81D8D8E4C63C5DD261A761BE0BBDA98767E1</key>
 		<string>https://github.com/awimbush/codepath_tips.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>tips.xcodeproj/project.xcworkspace</string>
+	<string>tips.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>811F81D8D8E4C63C5DD261A761BE0BBDA98767E1</key>
